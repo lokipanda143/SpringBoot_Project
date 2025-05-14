@@ -35,6 +35,7 @@ public class EmployeeControler {
 		String message="employee "+id+" created";
 		model.addAttribute("message", message);
 		
+		System.out.println("Vimal");
 		System.out.println( "your id is:"+employee+id);
 		return "EmployeeRegister";
 		
